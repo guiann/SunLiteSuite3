@@ -18,15 +18,27 @@ SunliteSuite3/
 ├── StartTrooper_BASE.shw     # Projet Sunlite de base
 ├── Aida/
 │   └── Aida.shw              # Spectacle de StarTroopers
-└── FLAM_Kalea/
-    └── Kalea.shw             # Spectacle de la troupe FLAM
+├── FLAM_Kalea/
+│   ├── Conduite.md           # Conduite lumière et annotations à confirmer
+│   ├── Scenes.md             # Catalogue des états lumineux réutilisables
+│   ├── Kalea.shw             # Spectacle FLAM : 29 scènes plateau sur Master
+│   └── sauvegardes/
+│       └── Kalea_avant_scenes_2026-09-14.shw # Copie avant programmation
+└── output/
+    └── pdf/
+        └── Kalea_Conduite_condensee.pdf # Conduite imprimable sur deux pages
 ```
 
 ## Documentation
 
 - [Matériels configurés et adressage DMX](docs/fixtures.md)
+- [Conduite lumière de Kalea](FLAM_Kalea/Conduite.md)
+- [Scènes réutilisables de Kalea](FLAM_Kalea/Scenes.md) - décompte, correspondance avec les tops et points à confirmer.
+- [Conduite condensée de Kalea en PDF](output/pdf/Kalea_Conduite_condensee.pdf) - annotations « à confirmer » conservées ; à régénérer si la conduite change.
 
 `FLAM_Kalea/Kalea.shw` a été créé par copie de `StartTrooper_BASE.shw`, puis déplacé dans son dossier actuel. C’est le fichier de travail pour Kalea.
+
+Il contient désormais 29 scènes plateau adaptées aux faces, LED FRONT et LED PALMIER disponibles, sans douche. Les affectations, niveaux proposés et points à confirmer sont détaillés dans `FLAM_Kalea/Scenes.md`. Les états public restent à définir. L'archive a été vérifiée, mais l'ouverture dans Sunlite et le rendu sur le matériel restent à contrôler.
 
 ## Convention de nommage
 
