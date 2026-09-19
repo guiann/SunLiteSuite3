@@ -88,6 +88,24 @@ Mettre ce catalogue et son décompte à jour lorsque la conduite évolue ou qu'u
 ## Programmation réalisée le 14 septembre 2026
 **29 scènes S00 à S28 ajoutées sur la page Master de `Kalea.shw`.** Les trois états public restent à définir et ne sont pas programmés. Les noms de la table initiale décrivent la conduite ; les noms ci-dessous sont ceux des boutons adaptés au matériel.
 La sauvegarde avant modification est [Kalea_avant_scenes_2026-09-14.shw](sauvegardes/Kalea_avant_scenes_2026-09-14.shw). Le patch, les profils matériels et les autres pages sont conservés. Les références Master à des boutons absents de la base ont été remplacées par le classement des nouvelles scènes.
+
+### Groupes de projecteurs dans Sunlite
+
+La page `_MASTER` contient maintenant trois groupes de sélection utilisables pendant l’édition des scènes :
+
+| Groupe | Projecteurs inclus | IDs Sunlite |
+|---|---|---:|
+| `PROJO JARDIN` | paire jardin | 25, 26 |
+| `PROJO CENTRE` | paire centre | 27, 28 |
+| `PROJO COUR` | paire cour | 5, 8 |
+
+Ces groupes servent à sélectionner rapidement les deux appareils d’une zone. Les scènes conservent ensuite une valeur par projecteur ; le canal Shutter/Strobe est à DMX 20 pour chacun des six appareils dans les 29 scènes.
+
+### Boutons de test couleur
+
+Les pages de fixtures possédant des canaux RGB disposent maintenant de trois boutons `ROUGE`, `BLEU` et `VERT`. Ils commandent la page entière à **dimmer 100 %** avec le shutter/strobe ouvert à **DMX 20** pour les Z120M. Les pages `FUMEE` et `BROUILLARD` ne sont pas concernées ; les appareils sans canaux couleur ne reçoivent pas de faux boutons RGB.
+
+Cela ajoute **30 scènes de test** (10 pages RGB × 3 couleurs), en complément des 29 scènes du spectacle sur Master.
 ### Affectation et adaptations
 - Faces : PROJO JARDIN G/D (49, 67), CENTRE G/D (43, 61), COUR G/D (37, 55), univers 1. Les deux appareils de chaque zone reçoivent le même niveau.
 - Ambiance avant : LED FRONT JARDIN/CENTRE/COUR (1, 11, 21). Décor : LED PALMIER G/D (161, 170).

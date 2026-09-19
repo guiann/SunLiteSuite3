@@ -24,7 +24,9 @@ SunliteSuite3/
 │   ├── Kalea.shw             # Spectacle FLAM : 29 scènes plateau sur Master
 │   └── sauvegardes/
 │       ├── Kalea_avant_scenes_2026-09-14.shw # Copie avant programmation
-│       └── Kalea_avant_strobe20_2026-09-19.shw # Copie avant activation des shutters
+│       ├── Kalea_avant_strobe20_2026-09-19.shw # Copie avant activation des shutters
+│       ├── Kalea_avant_groupes_2026-09-19.shw # Copie avant création des groupes PROJO
+│       └── Kalea_avant_boutons_test_2026-09-19.shw # Copie avant les boutons couleur
 └── output/
     └── pdf/
         └── Kalea_Conduite_condensee.pdf # Conduite imprimable sur deux pages
@@ -39,7 +41,7 @@ SunliteSuite3/
 
 `FLAM_Kalea/Kalea.shw` a été créé par copie de `StartTrooper_BASE.shw`, puis déplacé dans son dossier actuel. C’est le fichier de travail pour Kalea.
 
-Il contient désormais 29 scènes plateau adaptées aux faces, LED FRONT et LED PALMIER disponibles, sans douche. Les affectations, niveaux proposés et points à confirmer sont détaillés dans `FLAM_Kalea/Scenes.md`. Les états public restent à définir. L'archive a été vérifiée, mais l'ouverture dans Sunlite et le rendu sur le matériel restent à contrôler.
+Il contient désormais 29 scènes plateau adaptées aux faces, LED FRONT et LED PALMIER disponibles, sans douche. La page Master propose aussi les groupes `PROJO JARDIN`, `PROJO CENTRE` et `PROJO COUR` pour sélectionner les deux projecteurs de chaque zone. Les pages de fixtures RGB proposent des boutons de test `ROUGE`, `BLEU` et `VERT` à dimmer 100 % et strobe ouvert. Les affectations, niveaux proposés et points à confirmer sont détaillés dans `FLAM_Kalea/Scenes.md`. Les états public restent à définir. L'archive a été vérifiée, mais l'ouverture dans Sunlite et le rendu sur le matériel restent à contrôler.
 
 ## Convention de nommage
 
