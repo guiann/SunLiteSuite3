@@ -23,7 +23,8 @@ SunliteSuite3/
 │   ├── Scenes.md             # Catalogue des états lumineux réutilisables
 │   ├── Kalea.shw             # Spectacle FLAM : 29 scènes plateau sur Master
 │   └── sauvegardes/
-│       └── Kalea_avant_scenes_2026-09-14.shw # Copie avant programmation
+│       ├── Kalea_avant_scenes_2026-09-14.shw # Copie avant programmation
+│       └── Kalea_avant_strobe20_2026-09-19.shw # Copie avant activation des shutters
 └── output/
     └── pdf/
         └── Kalea_Conduite_condensee.pdf # Conduite imprimable sur deux pages
