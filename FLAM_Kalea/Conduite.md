@@ -67,7 +67,7 @@ Transcription de la conduite manuscrite fournie le 14 septembre 2026. Les formul
 | 20 | Musique 6 — « Chiquitita » | Orange doux + face blanche |
 | 21 | « Chiquitita » avance | PF blanc extérieur centre |
 | 22 | « J’espère qu’elle… pas trop » **[texte incomplet à confirmer]** | NOIR |
-| 22.1 | Suite | État non précisé sur la note |
+| 22.1 | Suite | Éclairage chaud intérieur |
 
 ## Séquence 6
 
@@ -106,4 +106,4 @@ Transcription de la conduite manuscrite fournie le 14 septembre 2026. Les formul
 - Le dernier qualificatif de l’état du top 29 est difficile à distinguer.
 - Le titre ou repère associé à la musique 10 est difficile à lire.
 - Les annotations « PC face 2 » autour du top 38 demandent confirmation.
-- Aucun état explicite n’est inscrit en regard des sous-tops 15.1 et 22.1.
+- Aucun état explicite n’est inscrit en regard du sous-top 15.1.
